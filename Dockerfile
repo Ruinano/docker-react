@@ -12,7 +12,7 @@ RUN npm run build
 
 # /app/build <--- all the stuff run app in prod need is here
 
-FROM nginx
+FROM nginx:1.22
 
 EXPOSE 80
 
